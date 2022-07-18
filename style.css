@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #002e37;
+}
+
+.line-group {
+    width: 306px;
+    height: 306px;
+    border-radius: 400px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    overflow: hidden;
+    box-shadow: 0 0 50px 5px black;
+}
+
+.line {
+    background: linear-gradient(-45deg, #ffeaf7, #fda4c3, #002e37);
+    ;
+    width: 100%;
+    height: 26px;
+    background-size: 200%;
+    animation: a1 5s infinite forwards ease alternate;
+}
+
+@keyframes a1 {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+.v1 {
+    animation-delay: .05;
+}
+
+.v2 {
+    animation-delay: .1;
+}
+
+.v3 {
+    animation-delay: .15;
+}
+
+.v4 {
+    animation-delay: .2s;
+}
+
+.v5 {
+    animation-delay: calc(5*.05s);
+}
+
+.v6 {
+    animation-delay: calc(6*.05s);
+}
+
+.v7 {
+    animation-delay: calc(7*.05s);
+}
+
+.v8 {
+    animation-delay: calc(8*.05s);
+}
+
+.v9 {
+    animation-delay: calc(9*.05s);
+}
+
+.v10 {
+    animation-delay: calc(10*.05s);
+}
+
+.v11 {
+    animation-delay: calc(11*.05s);
+}
+
+.v12 {
+    animation-delay: calc(12*.05s);
+}
+
+.v13 {
+    animation-delay: calc(13*.05s);
+}
+
+.v14 {
+    animation-delay: calc(14*.05s);
+}
+
+.v15 {
+    animation-delay: calc(15*.05s);
+}
+
+.v16 {
+    animation-delay: calc(16*.05s);
+}
